@@ -1,0 +1,33 @@
+{
+  "index.html": {
+    "file": "assets/index-DoVJ9qZQ.js",
+    "name": "index",
+    "src": "index.html",
+    "isEntry": true,
+    "dynamicImports": [
+      "pages/HomePage/HomePage.jsx",
+      "pages/NotFoundPage/NotFoundPage.jsx"
+    ],
+    "css": [
+      "assets/index-BrBdF7ee.css"
+    ]
+  },
+  "pages/HomePage/HomePage.jsx": {
+    "file": "assets/HomePage-wSawVKmo.js",
+    "name": "HomePage",
+    "src": "pages/HomePage/HomePage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  },
+  "pages/NotFoundPage/NotFoundPage.jsx": {
+    "file": "assets/NotFoundPage-d6bwqNgl.js",
+    "name": "NotFoundPage",
+    "src": "pages/NotFoundPage/NotFoundPage.jsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "index.html"
+    ]
+  }
+}
