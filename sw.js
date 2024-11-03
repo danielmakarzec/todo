@@ -5,8 +5,8 @@ self.addEventListener('install', (e) => {
         '/',
         '/index.html',
         '/manifest.json',
-        '/android-chrome-192x192.png',
-        '/android-chrome-512x512.png',
+        '/icon-192x192.jpeg',
+        '/icon-512x512.jpeg',
       ])
     })
   )
